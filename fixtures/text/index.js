@@ -1,0 +1,1 @@
+var template = __inline('template.html')

@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - stable
+  - lts/boron
+
+before_script:
+  - npm install --global coveralls
+script:
+  - npm test -- --coverage
+after_script:
+  - cat coverage/lcov.info | coveralls
