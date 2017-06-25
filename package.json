@@ -1,0 +1,36 @@
+{
+  "name": "babel-plugin-__inline",
+  "version": "1.0.0",
+  "description": "Babel plugin to implement __inline in FIS.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/babel-plugin-__inline.git"
+  },
+  "keywords": [
+    "babel",
+    "fis"
+  ],
+  "author": "George Chung <Gerhut@GMail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gerhut/babel-plugin-__inline/issues"
+  },
+  "homepage": "https://github.com/Gerhut/babel-plugin-__inline#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "datauri": "^1.0.5",
+    "eslint": "^4.1.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "is-binary-path": "^2.0.0",
+    "jest": "^20.0.4"
+  }
+}
