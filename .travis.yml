@@ -1,7 +1,9 @@
 language: node_js
 node_js:
   - stable
-  - lts/boron
+  - lts/erbium
+  - lts/dubnium
+  - lts/carbon
 
 before_script:
   - npm install --global coveralls
