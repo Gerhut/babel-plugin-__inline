@@ -1,7 +1,7 @@
 const { readFileSync } = require('fs')
 const { dirname, resolve } = require('path')
 
-const Datauri = require('datauri')
+const Datauri = require('datauri/parser')
 const isBinaryPath = require('is-binary-path')
 
 const getInlinedString = file => {
