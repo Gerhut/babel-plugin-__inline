@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Gerhut/babel-plugin-__inline#readme",
   "devDependencies": {
-    "babel-core": "^6.25.0",
+    "babel-core": "^6.26.3",
     "datauri": "^1.0.5",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^10.2.1",
